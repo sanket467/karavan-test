@@ -1,0 +1,10 @@
+- route:
+    id: route-bd39
+    from:
+      uri: direct
+      id: from-52d5
+      steps:
+        - multicast:
+            id: multicast-3ecb
+        - saga:
+            id: saga-c118
